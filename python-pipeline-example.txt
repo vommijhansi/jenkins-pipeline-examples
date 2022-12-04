@@ -3,7 +3,7 @@ agent any
     stages {
         stage('build') {
             steps {
-                sh 'python3 --version'
+                sh 'python3 https://raw.githubusercontent.com/rushtojp/python-foundations-3-weeks/main/examples/week_1/example_1_first_code.py'
             }
         }
     }
