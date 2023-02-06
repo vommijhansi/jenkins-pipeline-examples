@@ -3,7 +3,7 @@ agent any
     stages {
         stage('build') {
             steps {
-                sh 'python3 /var/lib/jenkins/userContent/python-foundations-3-weeks/examples/week_1/example_1_first_code.py'
+                sh 'python3 /var/lib/jenkins/python-foundations-3-weeks/examples/week_1/example_1_first_code.py'
             }
         }
     }
