@@ -16,7 +16,7 @@ node {
            
 		else {
                
-			build 'Input-Pipeline-Demo'
+			build 'user-input-pipeline'
               
 			 echo 'Running on Stage #1'
            
